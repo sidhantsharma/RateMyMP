@@ -1,0 +1,200 @@
+/* CSS Layout and Sizing*/
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+}
+.bgcolor-navyblue
+{
+	background:url(../images/header_bg.jpg) repeat-x scroll left center transparent;
+}
+.color-white
+{
+	color:#FFF;
+}
+.transition
+{
+	transition:background ease-in 0.3s;
+}	
+.padding-left50
+{
+	padding-left:40px;
+}
+.padding-right50
+{
+	padding-right:40px;
+}
+.padding-left68
+{
+	padding-left:72px;
+}
+.padding-right68
+{
+	padding-right:78px;
+}
+.padding-left75
+{
+	padding-left: 74px;
+}
+.padding-left78
+{
+	padding-left:78px;
+}
+.padding-right86
+{
+	padding-right:97px;
+}
+.padding-left100
+{
+	padding-left:139px;
+}
+.padding-right100
+{
+	padding-right:140px;
+}
+.padding0
+{
+	padding:0px;
+}
+.padding-top15
+{
+	padding-top:15px;
+}
+.padding-top20
+{
+	padding-top:20px;
+}
+
+.padding-top50
+{
+	padding-top:50px;
+}
+.padding-bottom20
+{
+	padding-bottom:20px;
+}
+.padding-bottom15
+{
+	padding-bottom:15px;
+}
+.padding-top40
+{
+	padding-top:40px;
+}
+.padding-bottom60
+{
+	padding-bottom:60px;
+}
+.padding-bottom65
+{
+	padding-bottom:65px;
+}
+.mg-top10
+{
+	margin-top:10px;
+}
+.mg-top15
+{
+	margin-top:15px;
+}
+.mg-top40
+{
+	margin-top:40px;
+}
+.mg-top30
+{
+	margin-top:30px;
+}
+.mg-top50
+{
+	margin-top:50px;
+}
+.mg-bottom40
+{
+	margin-bottom:40px;
+}
+.mg-right10
+{
+	margin-right:10px;
+}
+.mg-right40
+{
+	position: absolute;
+	right: 40px;
+	top: 2px;
+}
+.mg-rightt40
+{
+	
+	right: 40px;
+	top: 2px;
+}
+/*.mg-right58
+{
+	margin-right:58px;
+}*/
+.mg-right90
+{
+	margin-right:95px;
+}
+.mg-left8
+{
+	margin-left: 8px;
+}
+.mg-left6
+{
+	margin-left: 8px;
+}
+
+.mg-left10
+{
+	margin-left:20px;
+}
+.mg-left100
+{
+	margin-left:100px;
+}
+.bottom-border-none
+{
+	border-bottom:none;
+}
+
+.inner
+{
+	width:300px;
+}
+.slowtrasition
+{
+	transition:background ease 2s;
+}
+.chckpad-right4
+{
+	padding-right: 5px;
+}
+#signinEmailValidation
+{
+
+}
+#signinPasswordValidation
+{
+
+}
+.div-logo {
+   margin-left: 14px;
+margin-top: 2px;
+height: 70px;
+width: 115px;
+float: left;
+}
+.footer_main
+{
+	position:fixed;
+	bottom:0px;
+}
+
+.header_fix
+{
+	width:1000px;
+	margin:0 auto;
+}	

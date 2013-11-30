@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <link rel="shortcut icon" href="../images/admin/adminFavicon.ico" />
+<head id="Head1" runat="server">
+    <link type="text/css" rel="stylesheet" href="../CSS/Admin/adminStyle.css" />
+    <title></title>
+     <script src="../JS/jquery.js" type="text/javascript"> </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").css("height", screen.height-110);
+            $("body").css("width", screen.width-100);
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <!--header starts-->
+            <div id="header">
+                <div id="header-logo"><img src="../images/logo.png" /></div>
+                <div id="logout-btn">
+                <asp:Button ID="logout" CssClass="btn" runat="server" Text="Logout" OnClick="logout_Click" />
+                </div>
+                
+            </div>
+        <!--header ends-->
+        
+        <!--main body starts-->
+        <div id="main">
+            <div id="sidebar">
+                <a href="welcome.aspx"><div class="buttons"><img src="../images/admin/icon-home.png" /><br />HOME</div></a>
+                <a href="Add.aspx"><div class="buttons"><img src="../images/admin/icon-add.png" /><br />Add</div></a>
+                <a href="view.aspx"><div class="buttons"><img src="../images/admin/icon-view.png" /><br />View And Edit</div></a>
+            </div>
+            <div id="content-main">
+                <div id="content-body">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> </asp:ContentPlaceHolder> 
+                </div>
+            </div>
+        </div>
+        <!--main body ends-->
+       
+    </div>
+    </form>
+</body>
+</html>
+
